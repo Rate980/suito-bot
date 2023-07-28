@@ -16,7 +16,6 @@ import os
 import sys
 from pprint import pprint
 
-import uvicorn
 from dotenv import load_dotenv
 from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from linebot.v3.exceptions import InvalidSignatureError
