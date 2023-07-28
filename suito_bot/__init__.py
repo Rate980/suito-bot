@@ -80,5 +80,9 @@ async def handle_callback(request: Request, background_task: BackgroundTasks):
 
     return 'OK'
 
+@app.get("/liff")
+def liff():
+    return "OK"
+
 
 # uvicorn.run(app, host="0.0.0.0", port=8888)
